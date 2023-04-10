@@ -85,7 +85,7 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{   }}>
+      <div className= 'app-container' >
         <MainContainer>
           <ChatContainer>       
             <MessageList 
