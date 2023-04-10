@@ -43,7 +43,7 @@
   text-align: center;
 }
 .App{
-  height:100vh;
+  height:50vh;
 }
 
 
@@ -52,8 +52,10 @@
   height:100%;
 
 }
-.cs-main-container{
-  /*  width:100%;
-  height:99%;
-  margin:auto;*/
+.fa-paperclip{
+  display:none;
+}
+
+.cs-message-input__tools:has(> .cs-button--attachment){
+  display:none;
 }
